@@ -1,32 +1,58 @@
 html {
-    background: -webkit-linear-gradient(left,magenta,yellow);
+    background: magenta;
 }
-body {
-    margin: 0;
+p {
+    padding: 0px;
+    margin: 0px;
 }
-.coming_soon {
+.gradient {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(45deg,#ed1e79, yellow);
+}
+.content {
     position: absolute;
     display: block;
     top: 50%;
     left: 50%;
     width: auto;
     height: auto;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 .Title {
     color: white;
-    font: 90px proxima-nova, gotham, arial;
+    display: block;
+    padding: 20px 100px 0px 100px;
+    font: 80px proxima-nova, gotham, arial;
     font-weight: bold;
     text-align: center;
-    padding-top: 10px;
-    visibility: visible;
     text-transform: uppercase;
 }
 .Body {
     color: white;
+    display: block;
+    padding: 20px 100px 20px 100px;
     font: 20px proxima-nova, gotham, arial;
     font-weight: normal;
     text-align: center;
-    padding-top: 10px;
-    visibility: visible;
+}
+.Titles {
+    transition: color 0.5s ease, max-height 1s ease;
+    max-height: 115px;
+    width: 980px;
+    color: #333e48;
+    font: 100px proxima-nova, gotham, arial;
+    text-transform:uppercase;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: -25px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
 }
