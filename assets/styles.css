@@ -1,0 +1,32 @@
+html {
+    background: -webkit-linear-gradient(left,magenta,yellow);
+}
+body {
+    margin: 0;
+}
+.coming_soon {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%)
+}
+.Title {
+    color: white;
+    font: 90px proxima-nova, gotham, arial;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    visibility: visible;
+    text-transform: uppercase;
+}
+.Body {
+    color: white;
+    font: 20px proxima-nova, gotham, arial;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    visibility: visible;
+}
