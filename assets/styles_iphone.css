@@ -29,7 +29,7 @@ p {
     color: white;
     display: block;
     padding: 0px;
-    font: 50px proxima-nova, gotham, arial;
+    font: 80px proxima-nova, gotham, arial;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -38,10 +38,10 @@ p {
     color: white;
     display: block;
     padding: 10px;
-    font: 14px proxima-nova, gotham, arial;
+    font: 30px proxima-nova, gotham, arial;
     font-weight: normal;
     text-align: center;
 }
 .Screwdriver {
-    width: 50%;
+    width: 25%;
 }
